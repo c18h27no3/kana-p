@@ -1,0 +1,3 @@
+[submodule "kana-p"]
+	path = kana-p
+	url = https://aur.archlinux.org/kana-p.git
