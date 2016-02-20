@@ -64,7 +64,7 @@ elif [[ $mode == "install" ]]; then
 
 	sed -i "s#^background=.*\$#background=/usr/share/kana-p/login-wallpaper.jpg#g" /etc/lightdm/lightdm-webkit-greeter.conf
 	sed -i "s#^\#greeter-session=.*\$#greeter-session=lightdm-webkit-greeter#g" /etc/lightdm/lightdm.conf
-	sed -i "s#^\#display-setup-script=.*\$#display-setup-script=/usr/bin/kana-p-screen -d#g" /etc/lightdm/lightdm.conf
+	#sed -i "s#^\#display-setup-script=.*\$#display-setup-script=/usr/bin/kana-p-screen -d#g" /etc/lightdm/lightdm.conf
 	sed -i "s#^webkit-theme=.*\$#webkit-theme=Bevel#g" /etc/lightdm/lightdm-webkit-greeter.conf
 
 
